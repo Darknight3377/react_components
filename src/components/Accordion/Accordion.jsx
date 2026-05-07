@@ -1,8 +1,8 @@
 import { AccordionItem } from "./AccordionItem";
 
 const Accordion = ({ values }) => {
- return values?.map ((item) =>(
-    <div className="">
+ return values?.map ((item,i) =>(
+    <div className="" key={i}>
         <AccordionItem item={item}/>
     </div>
  ))
