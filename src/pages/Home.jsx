@@ -1,5 +1,10 @@
 const Home = () => {
-    return <h1>This app consist of few basic react components that can be built</h1>
-}
+  return (
+    <div>
+      <h1>React Components Playground</h1>
+      <p>Build reusable components & learn advanced react patterns.</p>
+    </div>
+  );
+};
 
 export default Home;
