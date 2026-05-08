@@ -3,6 +3,8 @@ import Home from "../pages/Home";
 import AccordionPage from "../pages/AccordionPage";
 import MainLayout from "../layouts/MainLayout";
 import ToDoListPage from "../pages/ToDoList";
+import ProgressBarPage from "../pages/ProgressBarPage";
+
 export default function AppRoutes() {
   return (
     <Routes>
@@ -10,6 +12,7 @@ export default function AppRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/accordion" element={<AccordionPage />} />
         <Route path="/todolist" element ={<ToDoListPage/>} />
+        <Route path="/progressbar" element ={<ProgressBarPage/>} />
         {/* <Route path="/advanceAcc" element={<AccordionAdvance />} /> */}
       </Route>
     </Routes>
