@@ -8,6 +8,7 @@ export default function Navbar() {
             {/* <NavLink to="/advanceAcc">Advance Accordion</NavLink> */}
             <NavLink to="/todolist">ToDo List</NavLink>
             <NavLink to="/progressbar">Progress Bar</NavLink>
+            <NavLink to="/autocomplete">AutoComplete Box</NavLink>
         </nav>
     )
 }
