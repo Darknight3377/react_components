@@ -6,6 +6,7 @@ export default function Navbar() {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/accordion">Accordion</NavLink>
             <NavLink to="/advanceAcc">Advance Accordion</NavLink>
+            <NavLink to="/todolist">ToDo List</NavLink>
         </nav>
     )
 }
